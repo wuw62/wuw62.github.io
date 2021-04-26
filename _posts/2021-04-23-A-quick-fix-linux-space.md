@@ -10,7 +10,7 @@ date: 2021-04-23 15:45:20
 
 This applies to Linux Redhat or maybe some other Linux versions too. I encountered this issue when I was working on a website migration project. Mysql was unable to restart and the error log shows bin log. It turned out to be /var out of space.
 
-Before:
+## Before
 
 ```linux
 [wuw62@cpanel /]$ df -h
@@ -27,7 +27,7 @@ tmpfs                 1.6G     0  1.6G   0% /run/user/13948
 
 ```
 
-Solution:
+## Solution
 Use symbolic link(soft link). It only generate a mirror image of /var  and will not occupy disk space, command: ln -s xxx
 
 
@@ -37,7 +37,7 @@ ln －s  /home/www /var  #/var/www link to /home/www，so /www won't occupy any 
 
 ```
 
-After:
+## After
 
 ```linux
 [wuw62@cpanel /]$ df -h
