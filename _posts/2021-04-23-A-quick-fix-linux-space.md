@@ -3,8 +3,8 @@ title: A Quick Fix for Insufficient /var Space in Linux
 categories:
  - Linux
 tags:
- -linux
- -unix
+ - linux
+ - unix
 date: 2021-04-23 15:45:20
 ---
 
