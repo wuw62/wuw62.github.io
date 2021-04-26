@@ -8,10 +8,10 @@ tags:
 date: 2021-04-23 15:45:20
 ---
 
-This applies to Linux Redhat or maybe some other Linux versions too. I encountered this issue when I was working on a website migration project. Mysql was unable to restart and the error log shows bin log. It turned out to be /var was out of space.
+This applies to Linux Redhat or maybe some other Linux versions too. I encountered this issue when I was working on a website migration project. Mysql was unable to restart and the error log shows bin log. It turned out to be /var out of space.
 
 Before:
-# Highlight block
+
 ```linux
 [wuw62@cpanel /]$ df -h
 Filesystem            Size  Used Avail Use% Mounted on
@@ -28,9 +28,9 @@ tmpfs                 1.6G     0  1.6G   0% /run/user/13948
 ```
 
 Solution:
-Use symbolic link(soft link)  it only generate a mirror image of /var  and will not occupy disk space, command: ln -s xxx
+Use symbolic link(soft link). It only generate a mirror image of /var  and will not occupy disk space, command: ln -s xxx
 
-# Highlight block
+
 ```linux
 mv /var/www /home   #move /www to /home which has 256G space
 ln －s  /home/www /var  #/var/www link to /home/www，so /www won't occupy any space of /var
@@ -38,7 +38,7 @@ ln －s  /home/www /var  #/var/www link to /home/www，so /www won't occupy any 
 ```
 
 After:
-# Highlight block
+
 ```linux
 [wuw62@cpanel /]$ df -h
 Filesystem            Size  Used Avail Use% Mounted on
@@ -53,4 +53,4 @@ tmpfs                 7.8G     0  7.8G   0% /sys/fs/cgroup
 tmpfs                 1.6G     0  1.6G   0% /run/user/13948
 ```
 
-
+Problem solved. Mysql can be restarted then. 
