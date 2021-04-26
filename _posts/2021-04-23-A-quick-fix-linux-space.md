@@ -8,7 +8,7 @@ tags:
 date: 2021-04-23 15:45:20
 ---
 
-This applies to Linux Redhat or maybe some other Linux versions too. I encountered this issue when I was working on a website migration project. Mysql was unable to restart and the error log shows bin log. It turned out to be /var out of space.
+This applies to Linux Redhat or maybe some other Linux versions too. I encountered this issue when I was working on a website migration project. Mysql was unable to restart and it indicated mysql binary log error failed to open register file. It turned out to be /var out of space.
 
 ## Before
 
