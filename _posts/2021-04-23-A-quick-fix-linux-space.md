@@ -1,5 +1,5 @@
 ---
-title: A quick fix for insufficient /var space in Linux
+title: A Quick Fix for Insufficient /var Space in Linux
 categories:
  - Linux
 tags:
