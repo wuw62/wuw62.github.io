@@ -3,7 +3,9 @@ type: photo
 title: Black & White Film 
 date: 2021-04-24 15:45:20
 category: Photo
-photos:
+photos: 
+- http://wuw62.github.io/assets/images/BW_Film/00005.jpeg
+- http://wuw62.github.io/assets/images/BW_Film/00006.jpeg
  <!- http://wuw62.github.io/assets/images/BW_Film/00001.jpeg  --->
 <!- http://wuw62.github.io/assets/images/BW_Film/00002.jpeg --->
 <!- http://wuw62.github.io/assets/images/BW_Film/00003.jpeg --->
