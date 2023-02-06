@@ -9,7 +9,7 @@ photos:
 
 tags:
 - film
-description: Black & White Film Photo by Weiyi 
+description: Black & White Film Photo and Article by Weiyi 
 ---
 
 <br/>
