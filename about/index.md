@@ -14,7 +14,7 @@ I'm a web developer based in Toronto. Originally from China, educated in US and 
 
 *Me on the street in London, UK. Photo by Weiyi's fiancée Jin*
 
-photo by 
+
 ![photo by weiyi](../assets/images/sanjuan.jpeg){:style="margin:0 auto"}
 
 {:.image-caption}
