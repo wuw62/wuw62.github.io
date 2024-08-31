@@ -6,13 +6,17 @@ type: about
 
 Hello, I’m Weiyi. 
 
-I'm a web developer based in Toronto. Originally from China, educated in US and Canada. I enjoy designing and working things on web. When I'm off screen, you can find me either walking trails, skiing or in the kitchen inventing something new that tastes great. I also love movies, travel and photography. It's my personal blog, I'll keep sharing my thoughts and some ideas here.  
+I’m a web developer based in Toronto. I love creating and designing for the web, where I can blend my passion for aesthetic arts with my interest in technology. This combination allows me to craft digital experiences that are not only functional but also visually engaging.
+
+When I’m not in front of a screen, you’ll find me exploring nature on trails, skiing, or capturing moments through photography. I’m also deeply interested in movies and travel—all of which inspire my creative work.
+
+This is my personal blog, where I’ll be sharing my thoughts, ideas, and experiences. Thanks for stopping by!
 
 ![photo by weiyi](../assets/images/me-portrait2.jpeg){:style="margin:50 auto"}
 
 {:.image-caption}
 
-*On the street in London, UK. Photo by Weiyi's fiancée Jin*
+*On the street in London, UK.
 
 
 {::comment}
