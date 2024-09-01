@@ -12,7 +12,7 @@ When I’m not in front of a screen, you’ll find me exploring nature on trails
 
 This is my personal blog, where I’ll be sharing my thoughts, ideas, and experiences. Thanks for stopping by!
 
-![photo by weiyi](../assets/images/me-portrait2.jpeg){:style="margin:50 auto"}
+![photo by weiyi](../assets/images/me-portrait2.jpeg){:style="width: 50%; margin: 0 auto;"}
 
 {:.image-caption}
 
