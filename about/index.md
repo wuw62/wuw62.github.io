@@ -16,7 +16,8 @@ This is my personal blog, where I’ll be sharing my thoughts, ideas, and experi
 
 {:.image-caption}
 
-*On the street in London, UK.
+*A moment on a London street, UK*
+{:style="text-align: center;"}
 
 
 {::comment}
